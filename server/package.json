@@ -1,0 +1,17 @@
+{
+  "name": "server",
+  "module": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --hot run index.js"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.15.14",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.2",
+    "xlsx": "^0.18.5"
+  }
+}

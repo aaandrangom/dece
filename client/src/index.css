@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* Prevenir scroll cuando hay modales abiertos */
+body.modal-open {
+    overflow: hidden !important;
+}
+
+/* Asegurar que el scroll se restaure cuando no hay modales */
+body:not(.modal-open) {
+    overflow: unset !important;
+}
+
